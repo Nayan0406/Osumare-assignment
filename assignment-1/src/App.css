@@ -1,0 +1,415 @@
+* {
+    margin: 0;
+    padding: 0;   
+}
+
+/* navbar css */
+.navbar .container {
+    max-width: 1500px;
+    min-width: 1500px;
+    margin: 10px auto;
+    display: flex;
+    justify-content: space-between;
+}
+.navbar .container button {
+    height: 50px;
+    width: 16%;
+    border-radius: 50px;
+}
+
+/* Homesection  */
+.HomeSection {
+    margin-top: 150px;
+}
+.HomeSection .container {
+    display: flex;
+    padding-bottom: 20px;
+    justify-content: center;
+}
+.HomeSection .btn {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 70px;
+    border: none;
+}
+.HomeSection .btn button {
+    height: 40px;
+    width: 17%;
+    border-radius: 50px;
+    background: blue;
+    color: white;
+}
+.HomeSection .header-img {
+    display: flex;
+    justify-content: center;
+    padding-bottom: 100px;
+}
+
+.middleSection h1 {
+    display: flex;
+    justify-content: center;
+    padding-bottom: 80px;
+}
+.middleSection .container {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+.middleSection .container .title h2{
+    display: flex;
+    margin-left: 50px;
+    padding: 5px 0;
+}
+
+.middleSection .container .image img{
+    display: flex;
+    width: 100%;
+    height: 100%;
+}
+
+.middleSection .container .details {
+    margin-left: 50px;
+}
+.middleSection .container .details p {
+    display: flex;
+    padding: 5px 0;
+}
+.middleSection .container .title .btn {
+    display: flex;
+    padding: 5px 0;
+    margin-left: 50px;
+    border: none;
+}
+.middleSection .container .btn button {
+    height: 55px;
+    width: 50%;
+    background: blue;
+    color: white;
+    border-radius: 50px;
+}
+.serviceSec {
+    margin-top: 100px;
+    background: #f1f3f6;
+}
+.serviceSec .container {
+    max-width: 1500px;
+    min-width: 1500px;
+    display: flex;
+    flex-direction: column;
+    margin-top: 10px;
+    align-items: center;
+    padding: 50px 0;
+    gap: 30px;
+}
+.serviceSec .container .banner {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    padding-left: 50px;
+    padding-right: 50px;
+}
+.serviceSec .container .banner .card {
+    width: 24%;
+    background: white;
+    border-radius: 1px;
+    padding: 20px;
+    margin-bottom: 20px;
+    transition: .3s;
+    border: 2px solid transparent;
+    justify-content: space-between;
+}
+.serviceSec .container .banner .card .image{
+    display: flex;
+    justify-content: center;
+}
+.serviceSec .container .banner .card .heading {
+    display: flex;
+    justify-content: center;
+    margin-top: 10px;
+}
+.serviceSec .btn {
+    display: flex;
+    justify-content: center;
+    border: none;
+}
+.serviceSec  button {
+    height: 55px;
+    width: 17%;
+    background: blue;
+    color: white;
+    border-radius: 50px;
+}
+
+.navigate {
+    margin-top: 100px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 50px 0;
+}
+.navigate .container {
+    max-width: 1500px;
+    min-width: 1500px;
+    display: flex;
+    margin-top: 10px;
+    padding: 50px 0;
+}
+.navigate .heading h1{
+    display: flex;
+    justify-content: center;
+}
+.navigate .heading p {
+    display: flex;
+    justify-content: center;
+    padding-top: 20px;
+}
+
+.navigate .container .banner {
+    display: flex;
+    flex-direction: row;
+}
+
+.navigate .container .banner .list-group {
+    display: flex;
+    flex-direction: column;
+    border-radius: 10px;
+    position: absolute;
+}
+
+.navigate .container .banner .list-group .card {
+    display: flex;
+    flex-direction: row;
+    margin-top: 50px;
+    margin-left: 60px;
+    box-shadow: 5px;
+    background: white;
+}
+.navigate .container .banner .list-group .card li{
+    display: flex;
+    flex-direction: row;
+}
+.navigate .container .banner .list-group .card li img{
+    display: flex;
+    padding: auto;
+    margin: auto;
+    margin-left: 20px;
+}
+.navigate .container .banner .list-group .card .title{
+    display: flex;
+    margin-top: 30px;
+    margin-bottom: 10px;
+    margin-left: 20px;
+    padding: auto;
+    flex-direction: column;
+}
+
+.navigate .container .banner .sideImage {
+    padding: auto;
+    margin: auto;
+    margin-left: 570px;
+}
+
+
+.drivingProp .heading h2 {
+    display: flex;
+    justify-content: center;
+}
+.drivingProp .heading p {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+}
+.drivingProp .container {
+    display: flex;
+    flex-direction: row;
+    margin-top: 60px;
+}
+.drivingProp .container .image img {
+    display: flex;
+    width: 500px;
+    height: 400px;
+    margin-left: 100px;
+}
+.drivingProp .container .title {
+    margin-top: 30px;
+    flex-direction: column;
+    margin-right: 350px;
+    padding-bottom: 20px;
+}
+.drivingProp .container .title .details {
+    padding-top: 20px;
+}
+.drivingProp .container .title .btn {
+    display: flex;
+    margin-top: 10px;
+    border: none;
+}
+.drivingProp .container .title .btn button {
+    height: 55px;
+    width: 50%;
+    background: blue;
+    color: white;
+    border-radius: 50px;
+}
+.inquires .container {
+    max-width: 1500px;
+    min-width: 1500px;
+    display: flex;
+    flex-direction: column;
+    margin-top: 10px;
+    align-items: center;
+    padding: 50px 0;
+    gap: 30px;
+}
+.inquires .container .banner {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    padding-left: 50px;
+    padding-right: 50px;
+}
+.inquires .container .banner .card {
+    width: 50%;
+    background: white;
+    border-radius: 1px;
+    padding: 20px;
+    margin-bottom: 20px;
+    transition: .3s;
+    border: 2px solid transparent;
+}
+.inquires .container .banner .card .image {
+    display: flex;
+    justify-content: center;
+}
+.inquires .container .banner .card .heading {
+    display: flex;
+    justify-content: center;
+}
+.expertise .container {
+    max-width: 1500px;
+    min-width: 1500px;
+    display: flex;
+    flex-direction: column;
+    margin-top: 10px;
+    align-items: center;
+    padding: 50px 0;
+    gap: 30px;
+}
+.expertise .container .banner {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    padding-left: 50px;
+    padding-right: 50px;
+}
+.expertise .container .banner .card {
+    width: 50%;
+    background: white;
+    border-radius: 1px;
+    padding: 20px;
+    margin-bottom: 20px;
+    transition: .3s;
+    border: 2px solid transparent;
+}
+.expertise .container .banner .card .image {
+    display: flex;
+    justify-content: center;
+}
+.expertise .container .banner .card .heading {
+    display: flex;
+    justify-content: center;
+}
+.peace .header {
+    margin-top: 70px;
+    margin-left: 33%;
+    margin-right: 33%;
+}
+.peace .header h1{
+    display: flex;
+    justify-content: center;
+}
+.peace .header p{
+    margin-top: 10px;
+    justify-content: center;
+    display: flex;
+}
+.peace .header .btn{
+    margin-top: 10px;
+    display: flex;
+    justify-content: center;
+    border: none;
+}
+.peace .header .btn button {
+    height: 55px;
+    width: 50%;
+    background: blue;
+    color: white;
+    border-radius: 50px;
+}
+.partner .header {
+   margin-top: 150px;
+}
+.partner .header h4 {
+    display: flex;
+    justify-content: center;
+}
+.partner .header p {
+    margin-top: 20px;
+    justify-content: center;
+    display: flex;
+}
+.partner .image {
+    display: flex;
+    justify-content: center;
+    margin: auto;
+    padding: auto;
+}
+.partner .arrow {
+    display: flex;
+    justify-content: center;
+}
+.question .header {
+    margin-top: 100px;
+}
+.question .header h1 {
+    display: flex;
+    justify-content: center;
+}
+.question .header p{
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+}
+.question .container {
+    justify-content: center;
+}
+.question .container .accordion-1{
+    margin-top: 50px;
+    margin-left: 30%;
+    margin-right: 30%;
+    box-shadow: 3px 3px 10px grey;
+}
+.digital .header {
+    margin-top: 300px;
+}
+.digital .header h1 {
+    display: flex;
+    justify-content: center;
+}
+.digital .header p{
+    margin-top: 20px;
+    display: flex;
+    justify-content: center;
+}
+.footer {
+    margin-top: 70px;
+}
+.footer .container {
+    display: flex;
+    justify-content: center;
+}
+.footer .footer-1 {
+    margin-top: 50px;
+    display: flex;
+    justify-content: center;
+}
